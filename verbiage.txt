@@ -1,0 +1,15 @@
+{
+
+"header" : 
+"Header text...",
+
+"step-one" : 
+"Step one...",
+
+"step-two" : 
+"Step two...",
+
+"step-three" : 
+"Step three..."
+
+}

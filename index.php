@@ -41,7 +41,7 @@ body, a {
 .div-content {
 	display: block;
 	padding: 100px 20px;
-	background: #333;
+	background: rgba(65,65,65,1);
 	column-count: 3;
 	column-gap: 20px;
 	column-rule: 0 solid rgba(200,200,200,0.5);

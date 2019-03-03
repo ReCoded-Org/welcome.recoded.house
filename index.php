@@ -73,11 +73,11 @@ h2 {
 	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;
-	padding: 30px 20px;
+	padding: 40px 20px 0;
 	}
 	
 p {
-	padding: 20px 20px;
+	padding: 20px 20px 40px;
 	}
 
 p, a {

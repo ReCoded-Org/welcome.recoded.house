@@ -59,11 +59,10 @@ body, a {
 	column-count: 3; */
 	}
 	
-.div_bar amp-img {
+.div-bar amp-img {
 	width: 30%;
 	max-width: 300px;
 	display: inline-block;
-	page-break-inside: avoid;
 	}
 
 h2, p {

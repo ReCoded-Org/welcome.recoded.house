@@ -86,8 +86,15 @@ p, a {
 	font-weight: 400;
 	}
 	
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 	.div-content { column-count: 2; }
+	.hide-first { display: none; }
+	}
+	
+@media (max-width: 500px) {
+	.div-content { column-count: 1; }
+	.hide-first { display: none; }
+	.hide-second { display: none; }
 	}
 
 </style></head>
@@ -110,14 +117,14 @@ p, a {
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square hide-narrow'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img></div>
 	
 	<div class='div-content-square' layout='responsive' width='1' height='1'>
 		<h2><? echo $text_content['div-communication-header'] ?></h2>
 		<p><? echo $text_content['div-communication-body'] ?></p></div>
 	
-	<div class='div-content-square hide-narrow'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square'>
@@ -133,10 +140,10 @@ p, a {
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-018.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square hide-narrow'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square'>
+	<div class='div-content-square hide-second'>
 		<amp-img src='social-icons/social-icon-015.png' layout='responsive' width='1' height='1'></amp-img></div>
 	
 	<div class='div-content-square'>
@@ -146,10 +153,10 @@ p, a {
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-013.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square hide-narrow'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-017.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square hide-narrow'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-002.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square'>
@@ -159,7 +166,7 @@ p, a {
 		<h2><? echo $text_content['div-library-header'] ?></h2>
 		<p><? echo $text_content['div-library-body'] ?></p></div>
 
-	<div class='div-content-square'>
+	<div class='div-content-square  hide-second'>
 		<amp-img src='social-icons/social-icon-014.png' layout='responsive' width='1' height='1'></amp-img></div>
 		
 	<div class='div-content-square'>
@@ -169,7 +176,7 @@ p, a {
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-011.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square hide-narrow'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-008.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	</div>

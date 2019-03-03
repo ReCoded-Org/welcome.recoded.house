@@ -28,7 +28,7 @@ $text_content = json_decode($text_content, TRUE); ?>
 <style amp-custom>
 
 body {
-	
+	background: rgba(245,245,245,1);	
 	}
 	
 body, a {

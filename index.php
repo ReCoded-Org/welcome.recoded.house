@@ -47,12 +47,13 @@ body, a {
 	box-sizing: border-box;
 	text-align: center;
 	white-space: nowrap;
+	column-gap: 20px;
+	column-rule: 0;
+	column-width: 29%;
+	column-count: 3;
 	}
 	
 .div-bar amp-img {
-	width: 33%;
-	max-width: 300px;
-	display: inline-block;
 	margin: 0;
 	padding: 0;
 	}

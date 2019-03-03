@@ -60,8 +60,9 @@ body, a {
 	}
 	
 .div_bar amp-img {
-	max-width: 300%;
+	max-width: 300px;
 	display: inline-block;
+	page-break-inside: avoid;
 	}
 
 h2, p {

@@ -41,7 +41,7 @@ body, a {
 .div-header {
 	background: rgba(93,166,198,1);
 	margin: 0;
-	padding: 100px 120px;
+	padding: 190px 120px;
 	text-align: right;
 	}
 	
@@ -110,14 +110,14 @@ p, a {
 	}
 	
 @media (max-width: 1000px) {
-	.div-header { padding: 70px 80px; }
+	.div-header { padding: 150px 80px; }
 	.div-header amp-img { width: 220px; height: 330px; }
 	.div-content { column-count: 2; }
 	.hide-first { display: none; }
 	}
 	
 @media (max-width: 700px) {
-	.div-header { padding: 40px 50px; }
+	.div-header { padding: 100px 50px; }
 	.div-header amp-img { width: 160px; height: 240px; }
 	.div-content { column-count: 1; }
 	.hide-first { display: none; }

@@ -53,13 +53,14 @@ body, a {
 	background: rgba(200,200,200,0.3);
 	box-sizing: border-box;
 	text-align: center;
-	column-gap: 20px;
+/*	column-gap: 20px;
 	column-rule: 0 solid #eee;
 	column-width: 150px;
-	column-count: 3;
+	column-count: 3; */
 	}
 	
 .div_bar amp-img {
+	width: 30%;
 	max-width: 300px;
 	display: inline-block;
 	page-break-inside: avoid;

@@ -48,7 +48,7 @@ body, a {
 	
 .div-bar {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	max-width: 1560px;
 	white-space: nowrap;
 	column-gap: 20px;
@@ -92,7 +92,7 @@ p, a {
 	}
 	
 #div-welcome {
-	background: rgba(224,183,124,1);
+	background: rgba(100,100,100,1);
 /*	background-image: linear-gradient(45deg, rgba(62,132,128,1), rgba(100,132,100,1)); */
 	}
 

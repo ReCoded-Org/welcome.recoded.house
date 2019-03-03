@@ -172,6 +172,7 @@ p, a {
 
 	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-002.png' layout='responsive' width='1' height='1'></amp-img></div>
+
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-016.png' layout='responsive' width='1' height='1'></amp-img></div>
 
@@ -185,6 +186,9 @@ p, a {
 	<div class='div-content-square  hide-second'>
 		<amp-img src='social-icons/social-icon-014.png' layout='responsive' width='1' height='1'></amp-img></div>
 		
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
+
 	<div class='div-content-square'>
 		<h2><? echo $text_content['div-makerlab-header'] ?></h2>
 		<p><? echo $text_content['div-makerlab-body'] ?></p></div>
@@ -200,9 +204,6 @@ p, a {
 
 	<div class='div-content-square hide-second'>
 		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img></div>
-
-	<div class='div-content-square hide-first'>
-		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square hide-second'>
 		<amp-img src='social-icons/social-icon-013.png' layout='responsive' width='1' height='1'></amp-img></div>

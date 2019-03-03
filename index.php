@@ -18,9 +18,8 @@ $text_content = json_decode($text_content, TRUE); ?>
 <link rel="canonical" href="<? echo $text_content['domain'] ?>">
 	
 <!-- Import custom fonts -->
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">	
-<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	
 <!-- Material Icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -28,7 +27,39 @@ $text_content = json_decode($text_content, TRUE); ?>
 <!-- Custom CSS -->
 <style amp-custom>
 	
-#div-header {
+body {
+	font-family: Karla, 'Sans Serif';
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #fff;
+	}
+	
+.div_content {
+	background: #333;
+	background-image: linear-gradient {45deg, rgba(30,30,30,1), rgba(100,100,100,1));
+	}
+
+h2, p {
+	width: 100%;
+	max-width: 810px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+	}
+
+h2 {
+	font-family: Lato, 'Sans Serif';
+	font-size: 30px;
+	line-height: 1.3em;
+	font-weight: 700;
+	}
+
+p {
+	font-size: 20px;
+	line-height: 1.4em;
+	font-weight: 400;
+	}
 
 </style></head>
 <body>
@@ -48,7 +79,7 @@ $text_content = json_decode($text_content, TRUE); ?>
 <div class='div-bar' id='div-communication-bar'>
 	</div>
 	
-<div id='div-communicaton'>
+<div class='div-content' id='div-communicaton'>
 	<h2><? echo $text_content['div-communicaton-header'] ?></h2>
 	<p><? echo $text_content['div-communicaton-body'] ?></p>
 	</div>
@@ -56,7 +87,7 @@ $text_content = json_decode($text_content, TRUE); ?>
 <div class='div-bar' id='div-access-bar'>
 	</div>
 	
-<div id='div-access'>
+<div class='div-content' id='div-access'>
 	<h2><? echo $text_content['div-access-header'] ?></h2>
 	<p><? echo $text_content['div-access-body'] ?></p>
 	</div>
@@ -64,7 +95,7 @@ $text_content = json_decode($text_content, TRUE); ?>
 <div class='div-bar' id='div-policies-bar'>
 	</div>
 	
-<div id='div-policies'>
+<div class='div-content' id='div-policies'>
 	<h2><? echo $text_content['div-policies-header'] ?></h2>
 	<p><? echo $text_content['div-policies-body'] ?></p>
 	</div>
@@ -72,7 +103,7 @@ $text_content = json_decode($text_content, TRUE); ?>
 <div class='div-bar' id='div-library-bar'>
 	</div>
 	
-<div id='div-library'>
+<div class='div-content' id='div-library'>
 	<h2><? echo $text_content['div-library-header'] ?></h2>
 	<p><? echo $text_content['div-library-body'] ?></p>
 	</div>
@@ -80,12 +111,12 @@ $text_content = json_decode($text_content, TRUE); ?>
 <div class='div-bar' id='div-makerlab-bar'>
 	</div>
 	
-<div id='div-makerlab'>
+<div class='div-content' id='div-makerlab'>
 	<h2><? echo $text_content['div-makerlab-header'] ?></h2>
 	<p><? echo $text_content['div-makerlab-body'] ?></p>
 	</div>
 	
-<div id='div-footer-bar'>
+<div class='div-bar' id='div-footer-bar'>
 	</div>
 	
 <div id='div-footer'>

@@ -52,7 +52,7 @@ body, a {
 .div-bar amp-img {
 	width: 33%;
 	max-width: 300px;
-	display: inline;
+	display: inline-block;
 	margin: 0;
 	padding: 0;
 	}

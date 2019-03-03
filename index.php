@@ -134,7 +134,8 @@ p, a {
 <div class='div-content'>
 
 	<div class='div-content-square'>
-		<h2><? echo $text_content['div-welcome-header'] ?></h2>
+		<h2></h2>
+		<!--<h2><? echo $text_content['div-welcome-header'] ?></h2>-->
 		<p><? echo $text_content['div-welcome-body'] ?></p></div>
 
 	<div class='div-content-square hide-first'>

@@ -42,7 +42,7 @@ body, a {
 	display: block;
 	padding: 30px 20px;
 	background: #333;
-	background-image: linear-gradient {45deg, rgba(30,30,30,1), rgba(100,100,100,1));
+	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
 
 h2, p {

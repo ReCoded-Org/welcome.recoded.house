@@ -1,5 +1,5 @@
-<? $verbiage = file_get_contents('verbiage.json');
-$verbiage = json_decode($verbiag, true); ?>
+<? $text_content = file_get_contents('text_content.json', FILE_USE_INCLUDE_PATH);
+$text_content = json_decode($text_content, TRUE); ?>
 
 <!doctype html>
 <html amp lang="en">
@@ -14,8 +14,8 @@ $verbiage = json_decode($verbiag, true); ?>
 <!-- More AMP -->
 <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
 
-<title><? echo $verbiage['title'] ?></title>
-<link rel="canonical" href="<? echo $verbiage['domain'] ?>">
+<title><? echo $text_content['title'] ?></title>
+<link rel="canonical" href="<? echo $text_content['domain'] ?>">
 	
 <!-- Import custom fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">

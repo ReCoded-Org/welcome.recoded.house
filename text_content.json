@@ -1,21 +1,48 @@
 {
 
 "domain" :
-"https://welcome.recoded.house",
+	"https://welcome.recoded.house",
 
 "title" : 
-"Welcome to Re:Coded House",
+	"Welcome to Re:Coded House",
   
 "header" : 
-"Header text...",
+	"Header text...",
 
-"step-one" : 
-"Step one...",
+"div-welcome-header" : 
+	"Welcome.",
 
-"step-two" : 
-"Step two...",
+"div-welcome-body" : 
+	"We built Re:Coded House because we wanted a coworking space with community at its core. Our network of innovators consists of freelancers, startups, established organizations, and influencers. Everyone you need to know, under the same roof.",
 
-"step-three" : 
-"Step three..."
+"div-communication-header" : 
+	"Communicate.",
 
+"div-communication-body" : 
+	"Receive the latest announcements on <a href='https://m.me/recodedhouse/'>Messenger</a> or <a href='https://slack.com'>Slack</a>.",
+
+"div-access-header" : 
+	"Access.",
+	
+"div-access-body" : 
+	"Our hours are every day from 9 to 9. You can stay later by arrangement with Re:Coded House staff. Book conference rooms at <a href='https://booking.recoded.house'>booking.recoded.house</a>.",
+
+"div-policies-header" : 
+	"Policies. (How to be polite.)",
+
+"div-policies-body" :
+	"Politeness and common courtesy is a core element of being a Houser. Additionally, take special note that Re:Coded House is a phone-free zone. If you must take a call then go to a soundproof phone both. Also, please be respectful when taking photos. When taking your glamorous selfie, make sure only people who want to be included are in your photo.",
+
+"div-library-header" :
+		"Library.",
+	
+"div-library-body" :
+	"You may have seen some sweet books and magazines around the space. You may have even picked them up and spent some hours reading. That is exactly why we put them there! Please do not take them out of the space.",
+	
+"div-makerlab-header" :
+	"Makerspace.",
+	
+"div-makerlab-body" :
+	"The makerlab, in partnership with Field Ready, provides physical and digital prototyping equipment for Housers to turn their ideas into designs, and their designs into products. Bookings to use the makerlab can me made on Nexudus."
+	
 }

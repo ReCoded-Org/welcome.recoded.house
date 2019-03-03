@@ -41,8 +41,9 @@ body, a {
 .div-bar {
 	display: block;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 0 20px;
 	background: #555;
+	background-image: radial-gradient(#555, #333);
 	box-sizing: border-box;
 	text-align: center;
 	white-space: nowrap;
@@ -50,7 +51,7 @@ body, a {
 	
 .div-bar amp-img {
 	width: 33%;
-	max-width: 280px;
+	max-width: 300px;
 	display: inline-block;
 	margin: 0;
 	padding: 0;

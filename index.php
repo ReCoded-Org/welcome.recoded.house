@@ -43,7 +43,6 @@ body, a {
 	margin: 0;
 	padding: 0;
 	background: #555;
-	background-image: radial-gradient(circle, #555, #333);
 	box-sizing: border-box;
 	text-align: center;
 	white-space: nowrap;
@@ -54,7 +53,7 @@ body, a {
 	}
 	
 .div-bar amp-img {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	max-width: 200px;
 	}

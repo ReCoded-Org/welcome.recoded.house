@@ -46,7 +46,7 @@ body, a {
 	}
 	
 .div-header amp-img {
-	display: inline-block;
+	display: block;
 	max-height: 600px;
 	}
 	

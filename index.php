@@ -106,6 +106,11 @@ p, a {
 	font-size: 22px;
 	line-height: 1.4em;
 	font-weight: 400;
+	text-decoration: none;
+	}
+	
+a {
+	background: rgba(200,200,200,0.3);
 	}
 	
 @media (max-width: 1000px) {

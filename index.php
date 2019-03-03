@@ -62,6 +62,7 @@ body, a {
 	}
 
 .div-content-square {
+	outline: none;
 	display: block;
 	max-width: 400px;
 	margin: 0 auto 40px;
@@ -176,11 +177,14 @@ a {
 		<h2><? echo $text_content['div-policies-header'] ?></h2>
 		<p><? echo $text_content['div-policies-body'] ?></p></div>
 
-	<div class='div-content-square hide-first'>
+	<div class='div-content-square hide-first' role='button' tabindex='0' on='tap:social-icon-002.hide,social-icon-004.show' id='social-icon-002'>
 		<amp-img src='social-icons/social-icon-002.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square'>
+	<div class='div-content-square' role='button' tabindex='0' on='tap:social-icon-016.hide,social-icon-004.show' id='social-icon-016'>
 		<amp-img src='social-icons/social-icon-016.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square' role='button' tabindex='0' on='tap:social-icon-016.show,social-icon-004.hide' id='social-icon-004'>
+		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square'>
 		<h2><? echo $text_content['div-library-header'] ?></h2>
@@ -202,7 +206,7 @@ a {
 	<div class='div-content-square' role='button' tabindex='0' on='tap:social-icon-011.hide,social-icon-003.show' id='social-icon-011'>
 		<amp-img src='social-icons/social-icon-011.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square' on='tap:social-icon-011.show,social-icon-003.hide' id='social-icon-003' hidden>
+	<div class='div-content-square' role='button' tabindex='0' on='tap:social-icon-011.show,social-icon-003.hide' id='social-icon-003' hidden>
 		<amp-img src='social-icons/social-icon-003.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square hide-first'>

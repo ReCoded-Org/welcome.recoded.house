@@ -107,7 +107,7 @@ p, a {
 	.hide-first { display: none; }
 	}
 	
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.div-content { column-count: 1; }
 	.hide-first { display: none; }
 	.hide-second { display: none; }

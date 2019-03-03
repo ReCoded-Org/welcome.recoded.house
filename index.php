@@ -122,7 +122,7 @@ p, a {
 <body>
 	
 <div class='div-header'>
-	<amp-img src='recoded-house-icons/recoded-house-icon.png' layout='responsive' width='1' height='1.5'></amp-img>
+	<amp-img src='recoded-house-icons/recoded-house-logo.png' layout='responsive' width='1' height='1.5'></amp-img>
 	</div>
 	
 <div class='div-content'>

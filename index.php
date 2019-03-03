@@ -116,9 +116,6 @@ p, a {
 	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square hide-second'>
-		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img></div>
-
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img></div>
 	
@@ -126,9 +123,6 @@ p, a {
 		<h2><? echo $text_content['div-communication-header'] ?></h2>
 		<p><? echo $text_content['div-communication-body'] ?></p></div>
 	
-	<div class='div-content-square hide-first'>
-		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img></div>
-
 	<div class='div-content-square hide-second'>
 		<amp-img src='social-icons/social-icon-005.png' layout='responsive' width='1' height='1'></amp-img></div>
 
@@ -138,9 +132,6 @@ p, a {
 	<div class='div-content-square'>
 		<h2><? echo $text_content['div-access-header'] ?></h2>
 		<p><? echo $text_content['div-access-body'] ?></p></div>
-
-	<div class='div-content-square hide-first'>
-		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square hide-second'>
 		<amp-img src='social-icons/social-icon-015.png' layout='responsive' width='1' height='1'></amp-img></div>
@@ -154,10 +145,6 @@ p, a {
 
 	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-002.png' layout='responsive' width='1' height='1'></amp-img></div>
-
-	<div class='div-content-square hide-second'>
-		<amp-img src='social-icons/social-icon-013.png' layout='responsive' width='1' height='1'></amp-img></div>
-
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-016.png' layout='responsive' width='1' height='1'></amp-img></div>
 
@@ -180,6 +167,18 @@ p, a {
 
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-011.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square hide-first'>
+		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square hide-second'>
+		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square hide-first'>
+		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square hide-second'>
+		<amp-img src='social-icons/social-icon-013.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	</div>
 	

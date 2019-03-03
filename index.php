@@ -40,8 +40,8 @@ body, a {
 	
 .div-header {
 	background: rgba(93,166,198,1);
-	margin: -100px 0 0 0;
-	padding: 200px 120px;
+	margin-top: -100px;
+	padding: 200px 120px 100px;
 	text-align: right;
 	}
 	
@@ -114,14 +114,14 @@ a {
 	}
 	
 @media (max-width: 1000px) {
-	.div-header { padding: 250px 80px; }
+	.div-header { padding: 250px 80px 150px; }
 	.div-header amp-img { width: 220px; height: 330px; }
 	.div-content { column-count: 2; }
 	.hide-first { display: none; }
 	}
 	
 @media (max-width: 700px) {
-	.div-header { padding: 200px 50px; }
+	.div-header { padding: 200px 50px 100px; }
 	.div-header amp-img { width: 160px; height: 240px; }
 	.div-content { column-count: 1; }
 	.hide-first { display: none; }

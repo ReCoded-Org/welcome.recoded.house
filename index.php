@@ -202,7 +202,7 @@ a {
 	<div class='div-content-square' role='button' tabindex='0' on='tap:social-icon-011.hide,social-icon-003.show' id='social-icon-011'>
 		<amp-img src='social-icons/social-icon-011.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square' on='tap:social-icon-011.show,social-icon-003.hide' id='social-icon-003'>
+	<div class='div-content-square' on='tap:social-icon-011.show,social-icon-003.hide' id='social-icon-003' hidden>
 		<amp-img src='social-icons/social-icon-003.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square hide-first'>

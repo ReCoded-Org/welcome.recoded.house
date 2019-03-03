@@ -45,13 +45,9 @@ body, a {
 	text-align: right;
 	}
 	
-.div-header > div {
-	max-height: 600px;
-	}
-	
 .div-header amp-img {
-	display: block;
-	max-height: 400px;
+	width: 280px;
+	height: 420px;
 	}
 	
 .div-content {
@@ -127,7 +123,7 @@ p, a {
 <body>
 	
 <div class='div-header'>
-	<div><amp-img src='recoded-house-icons/recoded-house-logo.png' layout='responsive' width='1' height='1.5'></amp-img></div>
+	<amp-img src='recoded-house-icons/recoded-house-logo.png' layout='responsive' width='1' height='1.5'></amp-img>
 	</div>
 	
 <div class='div-content'>

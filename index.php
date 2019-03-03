@@ -45,6 +45,10 @@ body, a {
 	text-align: right;
 	}
 	
+.div-header > div {
+	height: 60%;
+	}
+	
 .div-header amp-img {
 	display: block;
 	max-height: 600px;
@@ -122,8 +126,8 @@ p, a {
 </style></head>
 <body>
 	
-
-	<amp-img src='recoded-house-icons/recoded-house-logo.png' layout='responsive' width='360' height='540'></amp-img>
+<div class='div-header'>
+	<div><amp-img src='recoded-house-icons/recoded-house-logo.png' layout='responsive' width='1' height='1.5'></amp-img></div>
 	</div>
 	
 <div class='div-content'>

@@ -93,17 +93,17 @@ p, a {
 	
 #div-welcome {
 	background: rgba(100,100,100,1);
-	background-image: linear-gradient(45deg, rgba(100,100,100,1), rgba(80,80,80,1));
+	background-image: radial-gradient(circle, rgba(100,100,100,1), rgba(80,80,80,1));
 	}
 	
 #div-communication {
 	background: rgba(150,150,150,1);
-	background-image: linear-gradient(45deg, rgba(150,150,150,1), rgba(130,130,130,1));
+	background-image: radial-gradient(circle, rgba(150,150,150,1), rgba(130,130,130,1));
 	}
 
 #div-access {
 	background: rgba(50,50,50,1);
-	background-image: linear-gradient(45deg, rgba(50,50,50,1), rgba(70,70,70,1));
+	background-image: radial-gradient(circle, rgba(50,50,50,1), rgba(70,70,70,1));
 	}
 
 </style></head>

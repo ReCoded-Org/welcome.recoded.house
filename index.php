@@ -38,13 +38,19 @@ body, a {
 	color: #fff;
 	}
 	
-.div-bar {
+.div_bar {
 	display: block;
 	margin: 0;
 	padding: 0;
 	background: #555;
-	box-sizing: border-box;
 	text-align: center;
+	width: auto;
+	}
+	
+.div-bar > div {
+	display: block;
+	margin: 0 auto;
+	max-width: 660px;
 	white-space: nowrap;
 	column-gap: 20px;
 	column-rule: 0;

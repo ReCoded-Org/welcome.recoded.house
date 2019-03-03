@@ -177,7 +177,7 @@ a {
 		<h2><? echo $text_content['div-policies-header'] ?></h2>
 		<p><? echo $text_content['div-policies-body'] ?></p></div>
 
-	<div class='div-content-square hide-first' role='button' tabindex='0' on='tap:social-icon-002.hide,social-icon-004.show' id='social-icon-002'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-002.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square' role='button' tabindex='0' on='tap:social-icon-016.hide,social-icon-004.show' id='social-icon-016'>

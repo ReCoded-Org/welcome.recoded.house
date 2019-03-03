@@ -41,7 +41,7 @@ body, a {
 .div-header {
 	background: rgba(93,166,198,1);
 	margin: 0;
-	padding: 190px 120px;
+	padding: 100px 120px;
 	text-align: right;
 	}
 	

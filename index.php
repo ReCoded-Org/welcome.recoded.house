@@ -40,7 +40,7 @@ body, a {
 	
 .div-content {
 	display: block;
-	padding: 0;
+	padding: 0 0 20px 0;
 	background: #333;
 	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
@@ -48,7 +48,7 @@ body, a {
 	
 .div-bar {
 	display: block;
-	margin: 0 auto 20px;
+	margin: 0 auto;
 	max-width: 1560px;
 	white-space: nowrap;
 	column-gap: 20px;

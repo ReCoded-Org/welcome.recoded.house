@@ -26,8 +26,12 @@ $text_content = json_decode($text_content, TRUE); ?>
 
 <!-- Custom CSS -->
 <style amp-custom>
-	
+
 body {
+	
+	}
+	
+body, a {
 	font-family: Karla, 'Sans Serif';
 	font-size: 15px;
 	line-height: 1.4em;
@@ -58,7 +62,7 @@ h2 {
 	font-weight: 700;
 	}
 
-p {
+p, a {
 	font-size: 25px;
 	line-height: 1.4em;
 	font-weight: 400;
@@ -74,7 +78,7 @@ p {
 <div class='div-bar' id='div-welcome-bar'>
 	</div>
 	
-<div id='div-welcome'>
+<div class='div-content' id='div-welcome'>
 	<h2><? echo $text_content['div-welcome-header'] ?></h2>
 	<p><? echo $text_content['div-welcome-body'] ?></p>
 	</div>

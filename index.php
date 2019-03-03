@@ -41,6 +41,10 @@ body, a {
 .div-bar {
 	max-width: 1200px;
 	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+	box-sizing: border-box;
+	background: #555;
 	text-align: center;
 	column-gap: 20px;
 	column-rule: 0 solid #eee;

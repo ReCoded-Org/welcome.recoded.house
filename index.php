@@ -19,7 +19,7 @@ $text_content = json_decode($text_content, TRUE); ?>
 	
 <!-- Import custom fonts -->
 <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	
 <!-- Material Icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -74,7 +74,7 @@ h2, p {
 
 h2 {
 	opacity: 0.8;
-	font-family: Lato, 'Sans Serif';
+	font-family: Lora, Serif;
 	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;

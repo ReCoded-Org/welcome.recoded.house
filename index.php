@@ -56,6 +56,7 @@ body, a {
 .div-bar amp-img {
 	margin: 0;
 	padding: 0;
+	max-width: 200px;
 	}
 	
 .div-content {
@@ -94,7 +95,7 @@ p, a {
 	}
 	
 #div-welcome {
-	background: rgba(62,132,128,1);
+	background: #555;
 /*	background-image: linear-gradient(45deg, rgba(62,132,128,1), rgba(100,132,100,1)); */
 	}
 

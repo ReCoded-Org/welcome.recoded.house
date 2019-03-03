@@ -78,11 +78,11 @@ h2 {
 	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;
-	padding: 80px 20px 30px;
+	padding: 130px 20px 30px;
 	}
 	
 p {
-	padding: 20px 20px 80px;
+	padding: 20px 20px 130px;
 	}
 
 p, a {
@@ -104,8 +104,8 @@ p, a {
 	</div>
 	
 <div class='div-content' id='div-welcome'>
-	<h2><? echo $text_content['div-welcome-header'] ?></h2>
-	<p><? echo $text_content['div-welcome-body'] ?></p>
+	<h2 amp-fx='parallax' data-parallax-factor='1.1'><? echo $text_content['div-welcome-header'] ?></h2>
+	<p amp-fx='parallax' data-parallax-factor='1.05'><? echo $text_content['div-welcome-body'] ?></p>
 	<div class='div-bar' id='div-welcome-bar'>
 		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img>
 		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img>

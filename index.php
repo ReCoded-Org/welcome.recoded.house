@@ -121,7 +121,7 @@ p, a {
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img></div>
 	
-	<div class='div-content-square' layout='responsive' width='1' height='1'>
+	<div class='div-content-square'>
 		<h2><? echo $text_content['div-communication-header'] ?></h2>
 		<p><? echo $text_content['div-communication-body'] ?></p></div>
 	

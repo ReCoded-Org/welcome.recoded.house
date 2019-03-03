@@ -35,7 +35,7 @@ body, a {
 	font-family: Karla, 'Sans Serif';
 	font-size: 15px;
 	line-height: 1.4em;
-	color: #fff;
+	color: #555;
 	}
 	
 .div-header {
@@ -54,7 +54,7 @@ body, a {
 .div-content {
 	display: block;
 	padding: 100px 20px;
-	background: rgba(68,68,68,1);
+	background: rgba(230,230,230,1);
 	column-count: 3;
 	column-gap: 20px;
 	column-rule: 0 solid rgba(200,200,200,0.5);

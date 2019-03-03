@@ -68,7 +68,7 @@ h2, p {
 	width: auto;
 	max-width: 810px;
 	box-sizing: border-box;
-	margin: 0 auto;
+	padding: 0 20px;
 	text-align: left;
 	display: block;
 	}

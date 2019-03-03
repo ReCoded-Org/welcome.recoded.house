@@ -35,7 +35,7 @@ body, a {
 	font-family: Karla, 'Sans Serif';
 	font-size: 15px;
 	line-height: 1.4em;
-	color: #555;
+	color: #444;
 	}
 	
 .div-header {

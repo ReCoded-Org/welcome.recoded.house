@@ -50,6 +50,7 @@ body, a {
 
 .div-content-square {
 	max-width: 400px;
+	margin: 20px auto;
 	page-break-inside: avoid;
 	}
 	

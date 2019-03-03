@@ -38,16 +38,15 @@ body, a {
 	color: #fff;
 	}
 	
-.div-bar {
+.div-content {
 	display: block;
-	margin: 0;
 	padding: 0;
-	background: #555;
-	text-align: center;
-	width: auto;
+	background: #333;
+	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
+
 	
-.div-bar > div {
+.div-bar {
 	display: block;
 	margin: 0 auto;
 	max-width: 1560px;
@@ -64,13 +63,6 @@ body, a {
 	max-width: 500px;
 	}
 	
-.div-content {
-	display: block;
-	padding: 0;
-	background: #333;
-	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
-	}
-
 h2, p {
 	width: auto;
 	max-width: 810px;
@@ -100,7 +92,7 @@ p, a {
 	}
 	
 #div-welcome {
-	background: #555;
+	background: rgba(224,183,24,1);
 /*	background-image: linear-gradient(45deg, rgba(62,132,128,1), rgba(100,132,100,1)); */
 	}
 
@@ -111,15 +103,14 @@ p, a {
 	logo
 	</div>
 	
-<div class='div-bar' id='div-welcome-bar'><div>
-	<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img>
-	<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img>
-	<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img>
-	</div></div>
-	
 <div class='div-content' id='div-welcome'>
 	<h2><? echo $text_content['div-welcome-header'] ?></h2>
 	<p><? echo $text_content['div-welcome-body'] ?></p>
+	<div class='div-bar' id='div-welcome-bar'>
+		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img>
+		</div>
 	</div>
 	
 <div class='div-bar' id='div-communication-bar'>

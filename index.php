@@ -95,7 +95,7 @@ p, a {
 	
 #div-welcome {
 	background: rgba(62,132,128,1);
-	background-image: linear-gradient(45deg, rgba(62,132,128,1), rgba(100,132,100,1));
+/*	background-image: linear-gradient(45deg, rgba(62,132,128,1), rgba(100,132,100,1)); */
 	}
 
 </style></head>

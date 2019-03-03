@@ -122,7 +122,7 @@ p, a {
 </style></head>
 <body>
 	
-<div class='div-header'>
+
 	<amp-img src='recoded-house-icons/recoded-house-logo.png' layout='responsive' width='360' height='540'></amp-img>
 	</div>
 	

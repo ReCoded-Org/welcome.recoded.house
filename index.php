@@ -44,7 +44,6 @@ body, a {
 	margin: 0 auto;
 	padding: 20px 0;
 	box-sizing: border-box;
-	background: #555;
 	text-align: center;
 	column-gap: 20px;
 	column-rule: 0 solid #eee;
@@ -100,13 +99,12 @@ p, a {
 	logo
 	</div>
 	
-<div class='div-bar' id='div-welcome-bar'>
-	<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img>
-	<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img>
-	<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img>
-	</div>
-	
 <div class='div-content' id='div-welcome'>
+	<div class='div-bar' id='div-welcome-bar'>
+		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img>
+		</div>
 	<h2><? echo $text_content['div-welcome-header'] ?></h2>
 	<p><? echo $text_content['div-welcome-body'] ?></p>
 	</div>

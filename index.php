@@ -38,6 +38,18 @@ body, a {
 	color: #fff;
 	}
 	
+.div-bar {
+	column-gap: 30px;
+	column-rule: 1px solid #eee;
+	column-width: 150px;
+	column-count: 3;
+	}
+	
+.div_bar amp-img {
+	max-width: 300%;
+	display: inline-block;
+	}
+	
 .div-content {
 	display: block;
 	padding: 80px 20px;
@@ -82,6 +94,9 @@ p, a {
 	</div>
 	
 <div class='div-bar' id='div-welcome-bar'>
+	<amp-img src='social-icons/social-icon-009.png'>
+	<amp-img src='social-icons/social-icon-012.png'>
+	<amp-img src='social-icons/social-icon-006.png'>
 	</div>
 	
 <div class='div-content' id='div-welcome'>

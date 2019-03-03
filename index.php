@@ -93,7 +93,17 @@ p, a {
 	
 #div-welcome {
 	background: rgba(100,100,100,1);
-/*	background-image: linear-gradient(45deg, rgba(62,132,128,1), rgba(100,132,100,1)); */
+	background-image: linear-gradient(45deg, rgba(100,100,100,1), rgba(80,80,80,1));
+	}
+	
+#div-communication {
+	background: rgba(150,150,150,1);
+	background-image: linear-gradient(45deg, rgba(150,150,150,1), rgba(130,130,130,1));
+	}
+
+#div-access {
+	background: rgba(50,50,50,1);
+	background-image: linear-gradient(45deg, rgba(50,50,50,1), rgba(70,70,70,1));
 	}
 
 </style></head>
@@ -112,21 +122,25 @@ p, a {
 		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img>
 		</div>
 	</div>
-	
-<div class='div-bar' id='div-communication-bar'>
-	</div>
-	
+		
 <div class='div-content' id='div-communication'>
 	<h2><? echo $text_content['div-communication-header'] ?></h2>
 	<p><? echo $text_content['div-communication-body'] ?></p>
-	</div>
-	
-<div class='div-bar' id='div-access-bar'>
+	<div class='div-bar' id='div-communication-bar'>
+		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-005.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-010.png' layout='responsive' width='1' height='1'></amp-img>
+		</div>
 	</div>
 	
 <div class='div-content' id='div-access'>
 	<h2><? echo $text_content['div-access-header'] ?></h2>
 	<p><? echo $text_content['div-access-body'] ?></p>
+	<div class='div-bar' id='div-access-bar'>
+		<amp-img src='social-icons/social-icon-018.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img>
+		<amp-img src='social-icons/social-icon-015.png' layout='responsive' width='1' height='1'></amp-img>
+		</div>
 	</div>
 	
 <div class='div-bar' id='div-policies-bar'>

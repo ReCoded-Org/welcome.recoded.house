@@ -40,8 +40,8 @@ body, a {
 	
 .div-bar {
 	display: block;
-	margin: 0 auto;
-	padding: 0 20px;
+	margin: 0;
+	padding: 0;
 	background: #555;
 	background-image: radial-gradient(circle, #555, #333);
 	box-sizing: border-box;
@@ -104,7 +104,11 @@ p, a {
 	logo
 	</div>
 	
-<div class='div-bar' id='div-welcome-bar'><amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img><amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img><amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img></div>
+<div class='div-bar' id='div-welcome-bar'><!--
+	--><amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img><!--
+	--><amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img><!--
+	--><amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img><!--
+	--></div>
 	
 <div class='div-content' id='div-welcome'>
 	<h2><? echo $text_content['div-welcome-header'] ?></h2>

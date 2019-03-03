@@ -136,7 +136,7 @@ a {
 <body>
 	
 <div class='div-header'>
-	<amp-img src='recoded-house-icons/recoded-house-logo-white.png' layout='responsive' width='1' height='1.5' amp-fx='parallax' data-parallax-factor='1.1'></amp-img>
+	<amp-img src='recoded-house-icons/recoded-house-logo-white.png' layout='responsive' width='1' height='1.5' amp-fx='parallax' data-parallax-factor='1.25'></amp-img>
 	</div>
 	
 <div class='div-content'>

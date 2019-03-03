@@ -39,8 +39,8 @@ body, a {
 	}
 	
 .div-bar {
-	column-gap: 30px;
-	column-rule: 1px solid #eee;
+	column-gap: 20px;
+	column-rule: 0 solid #eee;
 	column-width: 150px;
 	column-count: 3;
 	}

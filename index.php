@@ -112,13 +112,13 @@ p, a {
 		<h2><? echo $text_content['div-welcome-header'] ?></h2>
 		<p><? echo $text_content['div-welcome-body'] ?></p></div>
 
-	<div class='div-content-square'>
+	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square'>
+	<div class='div-content-square hide-second'>
 		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square hide-first'>
+	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img></div>
 	
 	<div class='div-content-square' layout='responsive' width='1' height='1'>
@@ -128,18 +128,15 @@ p, a {
 	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img></div>
 
-	<div class='div-content-square'>
+	<div class='div-content-square hide-second'>
 		<amp-img src='social-icons/social-icon-005.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square'>
-		<amp-img src='social-icons/social-icon-010.png' layout='responsive' width='1' height='1'></amp-img></div>
+		<amp-img src='social-icons/social-icon-018.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square'>
 		<h2><? echo $text_content['div-access-header'] ?></h2>
 		<p><? echo $text_content['div-access-body'] ?></p></div>
-
-	<div class='div-content-square'>
-		<amp-img src='social-icons/social-icon-018.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
@@ -148,17 +145,17 @@ p, a {
 		<amp-img src='social-icons/social-icon-015.png' layout='responsive' width='1' height='1'></amp-img></div>
 	
 	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-010.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square'>
 		<h2><? echo $text_content['div-policies-header'] ?></h2>
 		<p><? echo $text_content['div-policies-body'] ?></p></div>
 
-	<div class='div-content-square'>
-		<amp-img src='social-icons/social-icon-013.png' layout='responsive' width='1' height='1'></amp-img></div>
-
-	<div class='div-content-square hide-first'>
-		<amp-img src='social-icons/social-icon-017.png' layout='responsive' width='1' height='1'></amp-img></div>
-
 	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-002.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square hide-second'>
+		<amp-img src='social-icons/social-icon-013.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-016.png' layout='responsive' width='1' height='1'></amp-img></div>
@@ -167,6 +164,9 @@ p, a {
 		<h2><? echo $text_content['div-library-header'] ?></h2>
 		<p><? echo $text_content['div-library-body'] ?></p></div>
 
+	<div class='div-content-square hide-first'>
+		<amp-img src='social-icons/social-icon-017.png' layout='responsive' width='1' height='1'></amp-img></div>
+
 	<div class='div-content-square  hide-second'>
 		<amp-img src='social-icons/social-icon-014.png' layout='responsive' width='1' height='1'></amp-img></div>
 		
@@ -174,11 +174,11 @@ p, a {
 		<h2><? echo $text_content['div-makerlab-header'] ?></h2>
 		<p><? echo $text_content['div-makerlab-body'] ?></p></div>
 
-	<div class='div-content-square'>
-		<amp-img src='social-icons/social-icon-011.png' layout='responsive' width='1' height='1'></amp-img></div>
-
 	<div class='div-content-square hide-first'>
 		<amp-img src='social-icons/social-icon-008.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-011.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	</div>
 	

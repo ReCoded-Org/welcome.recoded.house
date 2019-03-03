@@ -43,7 +43,7 @@ body, a {
 	margin: 0 auto;
 	padding: 0 20px;
 	background: #555;
-	background-image: radial-gradient(#555, #333);
+	background-image: radial-gradient(circle, #555, #333);
 	box-sizing: border-box;
 	text-align: center;
 	white-space: nowrap;

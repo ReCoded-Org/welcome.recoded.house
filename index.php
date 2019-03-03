@@ -40,7 +40,7 @@ body, a {
 	
 .div-content {
 	display: block;
-	padding: 70px 20px;
+	padding: 80px 20px;
 	background: #333;
 	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
@@ -60,11 +60,11 @@ h2 {
 	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;
-	margin: 0 0 30px;
+	margin-bottom: 30px;
 	}
 
 p, a {
-	font-size: 22px;
+	font-size: 23px;
 	line-height: 1.4em;
 	font-weight: 400;
 	}

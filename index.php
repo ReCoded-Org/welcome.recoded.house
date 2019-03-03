@@ -49,7 +49,7 @@ body, a {
 	}
 
 .div-content-square {
-	display: inline-block;
+	display: block;
 	max-width: 400px;
 	margin: 20px auto;
 	page-break-inside: avoid;

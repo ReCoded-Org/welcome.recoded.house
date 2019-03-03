@@ -110,7 +110,7 @@ p, a {
 	}
 	
 a {
-	background: rgba(200,200,200,0.3);
+	background: rgba(93,166,198,0.5);
 	}
 	
 @media (max-width: 1000px) {

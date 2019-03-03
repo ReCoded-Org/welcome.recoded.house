@@ -68,9 +68,9 @@ h2, p {
 	width: auto;
 	max-width: 810px;
 	box-sizing: border-box;
-	padding: 0 20px;
 	text-align: left;
 	display: block;
+	margin: 0 auto;
 	}
 
 h2 {
@@ -79,11 +79,11 @@ h2 {
 	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;
-	margin: 80px auto 30px;
+	padding: 80px 20px 30px;
 	}
 	
 p {
-	margin: 0 auto 80px;
+	padding: 20px 20px 80px;
 	}
 
 p, a {

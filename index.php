@@ -38,31 +38,29 @@ body, a {
 	color: #fff;
 	}
 	
-.div-content {
-	display: block;
-	padding: 0;
-	background: #333;
-	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
-	}
-	
 .div-bar {
 	max-width: 1200px;
 	display: block;
 	margin: 0 auto;
 	padding: 20px;
-	background: rgba(200,200,200,0.3);
+	background: #555;
 	box-sizing: border-box;
 	text-align: center;
-/*	column-gap: 20px;
-	column-rule: 0 solid #eee;
-	column-width: 150px;
-	column-count: 3; */
 	}
 	
 .div-bar amp-img {
-	width: 30%;
+	width: 33%;
 	max-width: 300px;
 	display: inline-block;
+	margin: 0;
+	padding: 0;
+	}
+	
+.div-content {
+	display: block;
+	padding: 0;
+	background: #333;
+	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
 
 h2, p {

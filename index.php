@@ -50,6 +50,7 @@ body, a {
 
 .div-content-square {
 	max-width: 400px;
+	page-break-inside: avoid;
 	}
 	
 .div-content-square amp-img,  {
@@ -110,8 +111,7 @@ p, a {
 	
 	<div class='div-content-square' layout='responsive' width='1' height='1'>
 		<h2><? echo $text_content['div-communication-header'] ?></h2>
-		<p><? echo $text_content['div-communication-body'] ?></p>
-		</div>
+		<p><? echo $text_content['div-communication-body'] ?></p></div>
 	
 	<div class='div-content-square hide-narrow'>
 		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img></div>
@@ -121,7 +121,6 @@ p, a {
 
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-010.png' layout='responsive' width='1' height='1'></amp-img></div>
-		</div>
 
 	<div class='div-content-square'>
 		<h2><? echo $text_content['div-access-header'] ?></h2>
@@ -142,12 +141,40 @@ p, a {
 		<p><? echo $text_content['div-policies-body'] ?></p></div>
 
 	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-013.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
+
+	<div class='div-content-square hide-narrow'>
+		<amp-img src='social-icons/social-icon-017.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
+
+	<div class='div-content-square hide-narrow'>
+		<amp-img src='social-icons/social-icon-002.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-016.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
+
+	<div class='div-content-square'>
 		<h2><? echo $text_content['div-library-header'] ?></h2>
 		<p><? echo $text_content['div-library-body'] ?></p></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-014.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
 		
 	<div class='div-content-square'>
 		<h2><? echo $text_content['div-makerlab-header'] ?></h2>
 		<p><? echo $text_content['div-makerlab-body'] ?></p></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-011.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
+
+	<div class='div-content-square hide-narrow'>
+		<amp-img src='social-icons/social-icon-008.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
 
 	</div>
 	

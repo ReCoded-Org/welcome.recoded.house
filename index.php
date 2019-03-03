@@ -39,6 +39,9 @@ body, a {
 	}
 	
 .div-bar {
+	max-width: 1200px;
+	display: block;
+	text-align: center;
 	column-gap: 20px;
 	column-rule: 0 solid #eee;
 	column-width: 150px;

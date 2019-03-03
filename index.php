@@ -43,6 +43,7 @@ body, a {
 	margin-top: -100px;
 	padding: 200px 120px 100px;
 	text-align: right;
+	display: block;
 	}
 	
 .div-header amp-img {

@@ -42,25 +42,19 @@ body, a {
 	display: block;
 	padding: 0 0 20px 0;
 	background: #333;
-	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
+	column-count: 3;
+	column-gap: 20px;
+	column-rule: 0 solid rgba(200,200,200,0.5);
+/*	column-width: 30%; */
 	}
 
-	
-.div-bar {
-	display: block;
-	margin: 0 auto;
-	max-width: 1560px;
-	white-space: nowrap;
-	column-gap: 20px;
-	column-rule: 0;
-	column-width: 29%;
-	column-count: 3;
+.div-content-square {
+	max-width: 400px;
 	}
 	
-.div-bar amp-img {
-	margin: 0 auto;
+.div-content-square amp-img,  {
+	margin: 0;
 	padding: 0;
-	max-width: 500px;
 	}
 	
 h2, p {
@@ -78,32 +72,17 @@ h2 {
 	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;
-	padding: 130px 20px 30px;
+	padding: 30px 20px;
 	}
 	
 p {
-	padding: 20px 20px 130px;
+	padding: 20px 20px;
 	}
 
 p, a {
 	font-size: 23px;
 	line-height: 1.4em;
 	font-weight: 400;
-	}
-	
-#div-welcome {
-	background: rgba(100,100,100,1);
-	background-image: radial-gradient(circle, rgba(100,100,100,1), rgba(80,80,80,1));
-	}
-	
-#div-communication {
-	background: rgba(150,150,150,1);
-	background-image: radial-gradient(circle, rgba(150,150,150,1), rgba(130,130,130,1));
-	}
-
-#div-access {
-	background: rgba(50,50,50,1);
-	background-image: radial-gradient(circle, rgba(50,50,50,1), rgba(70,70,70,1));
 	}
 
 </style></head>
@@ -113,64 +92,63 @@ p, a {
 	logo
 	</div>
 	
-<div class='div-content' id='div-welcome'>
-	<h2 amp-fx='parallax' data-parallax-factor='1.1'><? echo $text_content['div-welcome-header'] ?></h2>
-	<p amp-fx='parallax' data-parallax-factor='1.05'><? echo $text_content['div-welcome-body'] ?></p>
-	<div class='div-bar' id='div-welcome-bar'>
-		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img>
-		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img>
-		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img>
+	
+<div class='div-content'>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square'>
+		<h2 amp-fx='parallax' data-parallax-factor='1.1'><? echo $text_content['div-welcome-header'] ?></h2>
+		<p amp-fx='parallax' data-parallax-factor='1.05'><? echo $text_content['div-welcome-body'] ?></p></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square hide-narrow'>
+		<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'></amp-img></div>
+	
+	<div class='div-content-square' layout='responsive' width='1' height='1'>
+		<h2><? echo $text_content['div-communication-header'] ?></h2>
+		<p><? echo $text_content['div-communication-body'] ?></p>
 		</div>
-	</div>
+	
+	<div class='div-content-square hide-narrow'>
+		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-005.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-010.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
+
+	<div class='div-content-square'>
+		<h2><? echo $text_content['div-access-header'] ?></h2>
+		<p><? echo $text_content['div-access-body'] ?></p></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-018.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square hide-narrow'>
+		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-015.png' layout='responsive' width='1' height='1'></amp-img></div>
+		</div>
+	
+	<div class='div-content-square'>
+		<h2><? echo $text_content['div-policies-header'] ?></h2>
+		<p><? echo $text_content['div-policies-body'] ?></p></div>
+
+	<div class='div-content-square'>
+		<h2><? echo $text_content['div-library-header'] ?></h2>
+		<p><? echo $text_content['div-library-body'] ?></p></div>
 		
-<div class='div-content' id='div-communication'>
-	<h2><? echo $text_content['div-communication-header'] ?></h2>
-	<p><? echo $text_content['div-communication-body'] ?></p>
-	<div class='div-bar' id='div-communication-bar'>
-		<amp-img src='social-icons/social-icon-001.png' layout='responsive' width='1' height='1'></amp-img>
-		<amp-img src='social-icons/social-icon-005.png' layout='responsive' width='1' height='1'></amp-img>
-		<amp-img src='social-icons/social-icon-010.png' layout='responsive' width='1' height='1'></amp-img>
-		</div>
-	</div>
-	
-<div class='div-content' id='div-access'>
-	<h2><? echo $text_content['div-access-header'] ?></h2>
-	<p><? echo $text_content['div-access-body'] ?></p>
-	<div class='div-bar' id='div-access-bar'>
-		<amp-img src='social-icons/social-icon-018.png' layout='responsive' width='1' height='1'></amp-img>
-		<amp-img src='social-icons/social-icon-004.png' layout='responsive' width='1' height='1'></amp-img>
-		<amp-img src='social-icons/social-icon-015.png' layout='responsive' width='1' height='1'></amp-img>
-		</div>
-	</div>
-	
-<div class='div-bar' id='div-policies-bar'>
-	</div>
-	
-<div class='div-content' id='div-policies'>
-	<h2><? echo $text_content['div-policies-header'] ?></h2>
-	<p><? echo $text_content['div-policies-body'] ?></p>
-	</div>
-	
-<div class='div-bar' id='div-library-bar'>
-	</div>
-	
-<div class='div-content' id='div-library'>
-	<h2><? echo $text_content['div-library-header'] ?></h2>
-	<p><? echo $text_content['div-library-body'] ?></p>
-	</div>
-	
-<div class='div-bar' id='div-makerlab-bar'>
-	</div>
-	
-<div class='div-content' id='div-makerlab'>
-	<h2><? echo $text_content['div-makerlab-header'] ?></h2>
-	<p><? echo $text_content['div-makerlab-body'] ?></p>
-	</div>
-	
-<div class='div-bar' id='div-footer-bar'>
-	</div>
-	
-<div id='div-footer'>
+	<div class='div-content-square'>
+		<h2><? echo $text_content['div-makerlab-header'] ?></h2>
+		<p><? echo $text_content['div-makerlab-body'] ?></p></div>
+
 	</div>
 	
 </body>

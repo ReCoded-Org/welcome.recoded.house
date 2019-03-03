@@ -35,16 +35,17 @@ body {
 	}
 	
 .div-content {
+	display: block;
+	padding: 30px 20px;
 	background: #333;
 	background-image: linear-gradient {45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
 
 h2, p {
-	width: 100%;
+	width: auto;
 	max-width: 810px;
 	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 20px;
 	text-align: left;
 	display: block;
 	}
@@ -81,9 +82,9 @@ p {
 <div class='div-bar' id='div-communication-bar'>
 	</div>
 	
-<div class='div-content' id='div-communicaton'>
-	<h2><? echo $text_content['div-communicaton-header'] ?></h2>
-	<p><? echo $text_content['div-communicaton-body'] ?></p>
+<div class='div-content' id='div-communication'>
+	<h2><? echo $text_content['div-communication-header'] ?></h2>
+	<p><? echo $text_content['div-communication-body'] ?></p>
 	</div>
 	
 <div class='div-bar' id='div-access-bar'>

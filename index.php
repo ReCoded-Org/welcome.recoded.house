@@ -94,9 +94,9 @@ p, a {
 	</div>
 	
 <div class='div-bar' id='div-welcome-bar'>
-	<amp-img src='social-icons/social-icon-009.png'>
-	<amp-img src='social-icons/social-icon-012.png'>
-	<amp-img src='social-icons/social-icon-006.png'>
+	<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'>
+	<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'>
+	<amp-img src='social-icons/social-icon-006.png' layout='responsive' width='1' height='1'>
 	</div>
 	
 <div class='div-content' id='div-welcome'>

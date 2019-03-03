@@ -46,6 +46,7 @@ body, a {
 	}
 	
 .div-header amp-img {
+	display: inline-block;
 	width: 280px;
 	height: 420px;
 	}
@@ -109,11 +110,13 @@ p, a {
 	}
 	
 @media (max-width: 1000px) {
+	.div-header amp-img { width: 220px; height: 330px; }
 	.div-content { column-count: 2; }
 	.hide-first { display: none; }
 	}
 	
 @media (max-width: 700px) {
+	.div-header amp-img { width: 160px; height: 240px; }
 	.div-content { column-count: 1; }
 	.hide-first { display: none; }
 	.hide-second { display: none; }

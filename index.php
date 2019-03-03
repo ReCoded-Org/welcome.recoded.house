@@ -82,7 +82,7 @@ p {
 	}
 
 p, a {
-	font-size: 23px;
+	font-size: 22px;
 	line-height: 1.4em;
 	font-weight: 400;
 	}
@@ -109,11 +109,11 @@ p, a {
 <div class='div-content'>
 
 	<div class='div-content-square'>
-		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img></div>
-
-	<div class='div-content-square'>
 		<h2><? echo $text_content['div-welcome-header'] ?></h2>
 		<p><? echo $text_content['div-welcome-body'] ?></p></div>
+
+	<div class='div-content-square'>
+		<amp-img src='social-icons/social-icon-009.png' layout='responsive' width='1' height='1'></amp-img></div>
 
 	<div class='div-content-square'>
 		<amp-img src='social-icons/social-icon-012.png' layout='responsive' width='1' height='1'></amp-img></div>

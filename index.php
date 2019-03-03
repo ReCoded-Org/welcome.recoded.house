@@ -38,6 +38,12 @@ body, a {
 	color: #fff;
 	}
 	
+.div-header {
+	background: rgba(158,158,158,1);
+	margin: 0;
+	padding: 100px 20px;
+	}
+	
 .div-content {
 	display: block;
 	padding: 100px 20px;
@@ -113,7 +119,6 @@ p, a {
 <div id='div-header'>
 	logo
 	</div>
-	
 	
 <div class='div-content'>
 

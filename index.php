@@ -51,7 +51,7 @@ body, a {
 .div-content-square {
 	display: block;
 	max-width: 400px;
-	margin: 20px auto;
+	margin: 0 auto 40px;
 	page-break-inside: avoid;
 	}
 	

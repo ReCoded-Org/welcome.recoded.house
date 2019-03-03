@@ -40,7 +40,7 @@ body, a {
 	
 .div-content {
 	display: block;
-	padding: 30px 20px;
+	padding: 70px 20px;
 	background: #333;
 	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
@@ -57,15 +57,21 @@ h2, p {
 h2 {
 	opacity: 0.8;
 	font-family: Lato, 'Sans Serif';
-	font-size: 40px;
+	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;
+	margin: 0 0 30px;
 	}
 
 p, a {
-	font-size: 25px;
+	font-size: 22px;
 	line-height: 1.4em;
 	font-weight: 400;
+	}
+	
+#div-welcome {
+	background: rgba(62,132,128,1);
+	background-image: linear-gradient(45deg, rgba(62,132,128,1), rgba(100,132,100,1));
 	}
 
 </style></head>

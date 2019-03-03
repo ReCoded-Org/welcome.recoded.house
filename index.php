@@ -38,7 +38,7 @@ body, a {
 	color: #fff;
 	}
 	
-.div_bar {
+.div-bar {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -50,7 +50,7 @@ body, a {
 .div-bar > div {
 	display: block;
 	margin: 0 auto;
-	max-width: 660px;
+	max-width: 1560px;
 	white-space: nowrap;
 	column-gap: 20px;
 	column-rule: 0;
@@ -61,7 +61,7 @@ body, a {
 .div-bar amp-img {
 	margin: 0 auto;
 	padding: 0;
-	max-width: 200px;
+	max-width: 500px;
 	}
 	
 .div-content {

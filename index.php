@@ -38,11 +38,19 @@ body, a {
 	color: #fff;
 	}
 	
+.div-content {
+	display: block;
+	padding: 0;
+	background: #333;
+	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
+	}
+	
 .div-bar {
 	max-width: 1200px;
 	display: block;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 20px;
+	background: rgba(200,200,200,0.3);
 	box-sizing: border-box;
 	text-align: center;
 	column-gap: 20px;
@@ -54,13 +62,6 @@ body, a {
 .div_bar amp-img {
 	max-width: 300%;
 	display: inline-block;
-	}
-	
-.div-content {
-	display: block;
-	padding: 80px 20px;
-	background: #333;
-	background-image: linear-gradient (45deg, rgba(30,30,30,1), rgba(100,100,100,1));
 	}
 
 h2, p {
@@ -78,7 +79,11 @@ h2 {
 	font-size: 37px;
 	line-height: 1.3em;
 	font-weight: 700;
-	margin-bottom: 30px;
+	margin: 80px auto 30px;
+	}
+	
+p {
+	margin: 0 auto 80px;
 	}
 
 p, a {

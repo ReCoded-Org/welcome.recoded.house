@@ -27,6 +27,69 @@ $text_content = json_decode($text_content, TRUE); ?>
 
 <!-- Custom CSS -->
 <style amp-custom>
+	
+#div-header {
 
 </style></head>
 <body>
+	
+<div id='div-header'>
+	logo
+	</div>
+	
+<div class='div-bar' id='div-welcome-bar'>
+	</div>
+	
+<div id='div-welcome'>
+	<h2><? echo $text_content['div-welcome-header'] ?></h2>
+	<p><? echo $text_content['div-welcome-body'] ?></p>
+	</div>
+	
+<div class='div-bar' id='div-communication-bar'>
+	</div>
+	
+<div id='div-communicaton'>
+	<h2><? echo $text_content['div-communicaton-header'] ?></h2>
+	<p><? echo $text_content['div-communicaton-body'] ?></p>
+	</div>
+	
+<div class='div-bar' id='div-access-bar'>
+	</div>
+	
+<div id='div-access'>
+	<h2><? echo $text_content['div-access-header'] ?></h2>
+	<p><? echo $text_content['div-access-body'] ?></p>
+	</div>
+	
+<div class='div-bar' id='div-policies-bar'>
+	</div>
+	
+<div id='div-policies'>
+	<h2><? echo $text_content['div-policies-header'] ?></h2>
+	<p><? echo $text_content['div-policies-body'] ?></p>
+	</div>
+	
+<div class='div-bar' id='div-library-bar'>
+	</div>
+	
+<div id='div-library'>
+	<h2><? echo $text_content['div-library-header'] ?></h2>
+	<p><? echo $text_content['div-library-body'] ?></p>
+	</div>
+	
+<div class='div-bar' id='div-makerlab-bar'>
+	</div>
+	
+<div id='div-makerlab'>
+	<h2><? echo $text_content['div-makerlab-header'] ?></h2>
+	<p><? echo $text_content['div-makerlab-body'] ?></p>
+	</div>
+	
+<div id='div-footer-bar'>
+	</div>
+	
+<div id='div-footer'>
+	</div>
+	
+</body>
+</html>

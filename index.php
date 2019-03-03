@@ -39,9 +39,14 @@ body, a {
 	}
 	
 .div-header {
-	background: rgba(158,158,158,1);
+	background: rgba(93,166,198,1);
 	margin: 0;
 	padding: 100px 20px;
+	text-align: right;
+	}
+	
+.div-header amp-img {
+	max-height: 60%;
 	}
 	
 .div-content {
@@ -117,7 +122,7 @@ p, a {
 <body>
 	
 <div class='div-header'>
-	logo
+	<amp-img src='recoded-house-icons/recoded-house-icon.png' layout='responsive' width='1' height='1.5'></amp-img>
 	</div>
 	
 <div class='div-content'>

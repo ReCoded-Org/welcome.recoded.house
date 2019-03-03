@@ -55,9 +55,17 @@ body, a {
 	page-break-inside: avoid;
 	}
 	
-.div-content-square amp-img,  {
+.div-content-square amp-img {
+	border-radius: 15px;
+	opacity: 0.9;
 	margin: 0;
 	padding: 0;
+	transition: opacity 0.1s;
+	}
+	
+.div-content-square:hover amp-img {
+	opacity: 1;
+	transition: opacity 0.3s;
 	}
 	
 h2, p {

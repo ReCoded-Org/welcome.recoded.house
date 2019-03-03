@@ -50,14 +50,15 @@ h2, p {
 	}
 
 h2 {
+	opacity: 0.8;
 	font-family: Lato, 'Sans Serif';
-	font-size: 30px;
+	font-size: 40px;
 	line-height: 1.3em;
 	font-weight: 700;
 	}
 
 p {
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 1.4em;
 	font-weight: 400;
 	}

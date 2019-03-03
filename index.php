@@ -116,7 +116,7 @@ p, a {
 </style></head>
 <body>
 	
-<div id='div-header'>
+<div class='div-header'>
 	logo
 	</div>
 	
